@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check_File_Change", "Check_File_Change\Check_File_Change.csproj", "{F6E4945A-5E02-4006-99DE-80D01E60F4DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6E4945A-5E02-4006-99DE-80D01E60F4DE}.Debug|x86.ActiveCfg = Debug|x86
+		{F6E4945A-5E02-4006-99DE-80D01E60F4DE}.Debug|x86.Build.0 = Debug|x86
+		{F6E4945A-5E02-4006-99DE-80D01E60F4DE}.Release|x86.ActiveCfg = Release|x86
+		{F6E4945A-5E02-4006-99DE-80D01E60F4DE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 1.0
+	EndGlobalSection
+EndGlobal
