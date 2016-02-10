@@ -102,10 +102,10 @@ namespace Check_File_Change
 
 				// ...and check if we are late
 				if ((int)span.TotalMinutes > maxMinutes) {
-					Console.Write ( ((warning) ? "WARNING": "CRITICAL") + " - " + fileName + " didn't changed for " + span.Hours + " hours " + span.Minutes + " minutes!" );
+					Console.WriteLine ( ((warning) ? "WARNING": "CRITICAL") + " - " + fileName + " didn't changed for " + span.Hours + " hours " + span.Minutes + " minutes!" );
 					returnCode = (warning) ? 1: 2;
 				} else {
-					Console.Write ( fileName + " is OK" + ((include) ? " - "+ lastModified.ToString ("dd.MM.yyyy HH:mm:ss"): "") );
+					Console.WriteLine ( fileName + " is OK" + ((include) ? " - "+ lastModified.ToString ("dd.MM.yyyy HH:mm:ss"): "") );
 					returnCode = 0;
 				}
 			} else {
